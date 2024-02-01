@@ -1,0 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.topbanner{
+    height: 20vh;
+    background-color: #FF3131;
+}
+
+.topheading{
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    /* padding-top: 2rem; */
+    padding-bottom: 2rem;
+    font-family: 'Agbalumo', sans-serif;
+}
