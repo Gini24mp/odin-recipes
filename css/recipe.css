@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: #E9ECEE;
+}
+
+.topbanner{
+    height: 25vh;
+    background-color: #C83126;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    font-family: 'Agbalumo', sans-serif;
+    margin: 0px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MealImage{
+    width: 50%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DescriptionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SectionHeading{
+    font-size: 3rem;
+    text-align: center;
+    color: #C83126;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IngredientList{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.IngredientListItem{
+    margin: 5px;
+}
+
+.InstructionList{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.InstructionListItem{
+    margin: 5px;
+}
+
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-52:after {
+    content: "";
+    background-color: #C83126;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.button-52:hover:after {
+    top: 0px;
+    left: 0px;
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 13px 50px 13px;
+    }
+}
+
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
